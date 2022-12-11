@@ -1,1 +1,1 @@
-https://github.com/Oleksandr-Orzul/rsschool-cv/blob/gh-pages/cv.md
+https://Oleksandr-Orzul.github.io/rsschool-cv/
