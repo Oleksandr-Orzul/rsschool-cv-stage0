@@ -1,15 +1,21 @@
 # Orzul Oleksandr
 photo
 ### WEB DEVELOPER
-
-##### Contact info
-
-Phone number
-e-mail
-
-##### SKILLS
-
-##### EDUCATION
-
-
-##### EXPERIENCE
+## Contacts
+....
+## Strong skills
+....
+## Soft skills
+....
+## English
+....
+## About me
+....
+## Education 
+....
+## Courses
+....
+## Code
+....
+## Projects
+.....
