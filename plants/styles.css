@@ -1,0 +1,36 @@
+body{
+  margin: 0 auto;
+}
+.container{
+  width: 1440px;
+  margin: 0 auto;
+}
+.header{
+background-color: #EDF2EC;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  padding: 42px 110px;
+}
+.img-logo{
+width: 20px;
+height: 20px;
+}
+.logo{
+line-height: 50px;
+font-size: 17px;
+}
+.menu{
+line-height: 50px;
+list-style: none;
+display: inline-flex;
+align-items: center;
+justify-content: space-between;
+margin: 0;
+font-size: 16px;}
+.menu li{
+padding-left: 42px;
+}
