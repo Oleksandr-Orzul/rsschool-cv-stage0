@@ -1,4 +1,5 @@
 body{
+  font-family: 'Inika', serif;
   margin: 0 auto;
 }
 .container{
@@ -11,7 +12,6 @@ background-color: #EDF2EC;
 .nav{
   display: flex;
   justify-content: space-between;
-
   align-items: center;
   padding: 42px 110px;
 }
@@ -33,4 +33,170 @@ margin: 0;
 font-size: 16px;}
 .menu li{
 padding-left: 42px;
+}
+.menu a{
+  text-decoration: none;
+  color: black;
+}
+.menu .active{
+  color: red;
+  font-weight: 700;
+}
+.welcome{
+  display: flex;
+  justify-content: space-between;
+  background-color:#EDF2EC ;
+  padding: 62px 110px ;
+}
+.welcome-icon{
+ height: 407px;
+  width: 449px;
+}
+.welcome-text{
+  width: 550px;
+}
+
+h1{ 
+font-family: 'Inter', sans-serif;
+font-weight: 700;
+font-size: 45px;
+line-height: 50px;
+color:  #717171;;
+}
+.green{
+  color:#499A18;
+}
+.welcome-text p {
+  font-family: 'Inter', sans-serif;
+font-weight: 400;
+font-size: 20px;
+line-height: 35px;
+color: #636060;
+margin: 42px 0 48px;
+}
+.welcome-btn{
+  background-color: #EDF2EC;
+  font-family: 'Inter', sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+padding: 14px 27px;
+border: 2px solid #E06733;
+border-radius: 10px;
+}
+.about-us{
+  display: flex;
+  justify-content: space-between;
+  background-color:#FFFFFF ;
+  padding: 93px 110px ;
+}
+.houseplant-about{
+  height: 479px;
+  width: 464px;
+}
+.red{
+  color: #E06733;
+}
+.about-us-text h2{
+  font-family: 'Inika';
+font-weight: 400;
+font-size: 40px;
+line-height: 52px;
+}
+.about-us-text p{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+color: #636060;
+margin-top: 40px;
+}
+.about-us-text{
+  width: 605px;
+}
+.service{
+  background-color:#EDF2EC ;
+}
+.service-head{
+  padding: 40px 110px 90px;
+  display: inline-flex;
+  justify-content: space-between;
+
+    }
+
+.service h2 {font-family: 'Inika';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  width: 306px;
+padding-right: 142px;}
+
+.service-menu{
+list-style: none;
+display: inline-flex;
+align-items: center;
+justify-content: space-between;
+margin: 0;
+padding: 0;
+}
+.service-menu li{
+ padding-right: 38px; 
+}
+.service-menu button{
+  text-decoration: none;
+  font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+color: #E06733;
+width: 161px;
+height: 50px;
+background-color:#EDF2EC ;
+border: 1px solid #E06733;
+border-radius: 5px;
+ }
+ .service-main{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+padding:  0 110px 66px;
+}
+.service-main article{
+  width: 330px;
+  height: 450px;
+  margin: 55px  0;
+}
+.service-main article img{
+  width: 330px;
+  display: block;
+}
+.service-main article h4{
+  font-family: 'Inter';
+font-weight: 700;
+font-size: 20px;
+line-height: 20px;
+text-align: center;
+color: #E06733;
+margin: 10px auto;
+}
+.service-main .bottom{
+  border: 1px solid #E3E1D5;
+  border-radius:0px 0px 20px 20px;
+  width: 330px;
+  height: 100px;
+  box-sizing: border-box;
+}
+.service-main p{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #717171;
+text-align: center;
+margin: 0;
+padding: 0;
 }

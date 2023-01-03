@@ -7,18 +7,18 @@
   <title>Plants</title>
   <link rel="shortcut icon" type="image/png" href="./assets/logo_vector.svg"/>
   <link rel="stylesheet" href="./styles.css">
-  
-
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 <body>
 <div class="container">
   <header class="header">
     <nav class="nav">
       <span class="logo">
-        <img src="./assets/logo_vector.svg" alt="logo" class="img-logo">
+        <img src="./assets/logo-vector.svg" alt="logo" class="img-logo">
         Plants
       </span>
       <ul class="menu">
-        <li><a href="#">Home</a></li>
+        <li><a href="#" class="active">Home</a></li>
         <li><a href="#">About us</a></li>
         <li><a href="#">Service</a></li>
         <li><a href="#">Price</a></li>
@@ -26,6 +26,40 @@
       </ul> 
     </nav>
   </header>
+  <main>
+    <section class="welcome">
+      <img src="./assets/welcome-icon.svg" alt="welcome icon" class="welcome-icon">
+      <div class="welcome-text">
+        <h1>We grow <span class="green">plants</span> and give you oxygen</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+        <button class="welcome-btn">LEARN MORE</button>
+      </div>
+    </section>
+    <section class="about-us">
+      <div class="about-us-text">
+        <h2><span class="green">We are <span class="red">  profedssional experienced </span>gardeners</span> </h2>
+        <p>LLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.  </p>
+      </div>
+      <img src="./assets/houseplant-about.png" alt="house plant" class="houseplant-about">
+    </section>
+    <section class="service">
+      <div class="service-head"> 
+        <h2><span class="green">Service and our projects</span> </h2>
+        <ul class="service-menu">
+          <li><button href="#">Gardens</button></li>
+          <li><button href="#">Lawn</button></li>
+          <li><button  href="#">Planting</button></li>
+      </div>
+      <div class="service-main"> 
+        <article class="gardens"><img src="./assets/service1.png" alt="plants"><div class="bottom"><h4>Garden care</h4><p>Lorem Ipsum has been the industry</p></div></article>
+        <article class="planting"><img src="./assets/service2.png" alt="plants"><div class="bottom"><h4>Planting</h4><p>Lorem Ipsum has been the industry</p></div></article>
+        <article class="lawn"><img src="./assets/service3.png" alt="plants"><div class="bottom"><h4>Lawn care</h4><p>Lorem Ipsum has been the industry</p></div></article>
+        <article class="planting"><img src="./assets/service4.png" alt="plants"><div class="bottom"><h4>Planting</h4><p>Lorem Ipsum has been the industry</p></div></article>
+        <article class="gardens"><img src="./assets/service5.png" alt="plants"><div class="bottom"><h4>Garden care</h4><p>Lorem Ipsum has been the industry</p></div></article>
+        <article class="planting"><img src="./assets/service6.png" alt="plants"><div class="bottom"><h4>Planting</h4><p>Lorem Ipsum has been the industry</p></div></article>
+      </div>
+    </section>
+  </main>
 </div>
 </body>
 </html>
