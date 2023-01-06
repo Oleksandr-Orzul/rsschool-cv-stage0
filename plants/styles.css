@@ -226,7 +226,7 @@ h1 {
 .prices {
   display: flex;
   justify-content: space-between;
-  padding: 12px 110px 108px;
+  padding: 40px 110px 108px;
 }
 .prices-left h2 {
   font-family: "Inter";
